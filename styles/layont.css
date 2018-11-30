@@ -1,0 +1,91 @@
+section, header, article, nav{display: block;}
+*{
+    padding: 0;
+    margin: 0;}
+body{
+    margin: 1em auto;
+    background-image: url(http://www.ghost64.com/qqtupian/zixunImg/local/2018/01/12/15157239118848.jpg);
+    background-attachment:fixed;
+    background-position: top left;
+    background-repeat: inherit;
+    max-width:80em;
+}
+header{
+    background-image: url(http://5b0988e595225.cdn.sohucs.com/images/20180913/04f2796a8116466e884ce3f48c53896b.jpeg);
+    background-repeat:no-repeat;
+    background-position: bottom left;
+    border-width: 0.1em;
+    border-style: solid;
+    border-bottom-width: 0;
+}
+header nav{
+    background-image: url(http://f.hiphotos.baidu.com/image/pic/item/d439b6003af33a8724e4b645cb5c10385243b5e0.jpg);
+    background-position: bottom left;
+    background-repeat:repeat-x;
+    border-width:0.1em;
+    border-style:solid;
+    border-bottom-width:0;
+    border-top-width:0;
+    padding-left: 10%;
+}
+header nav ul{
+    width: 100%;
+    overflow: hidden;
+    border-left-width:0.1em;
+    border-left-style:solid;
+}
+header nav li{
+    display: inline;
+}
+header nav li a{
+    display: block;
+    float: left;
+    padding: 0.5em 2em;
+    border-right:0.1em solid;
+}
+article{
+    border-width: 0.1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+}
+article img{
+    border-width: 0.1em;
+    border-style: solid;
+    outline-width: 0.1em;
+    outline-style: solid;
+}
+#about header{
+    background-image: url(http://5b0988e595225.cdn.sohucs.com/images/20180902/e143669820d945bd898c6c2d25794d18.jpeg);}
+#photos header{
+    background-image: url(http://5b0988e595225.cdn.sohucs.com/images/20180920/af0108e5cecb4ac5aceed1df83aa23e9.jpeg);}
+#live header{
+    background-image: url(http://5b0988e595225.cdn.sohucs.com/images/20181110/6a45b3042d904d76a6943f47d6d090d7.jpeg);}
+#contact header{
+    background-image: url(http://5b0988e595225.cdn.sohucs.com/images/20180823/b38c32c6dedc4499a3e5a63f091dab7e.jpeg);}
+#slideshow{
+    width: 150px;
+    height: 150px;
+position: relative;
+overflow: hidden;}
+#preview{
+    position: absolute;
+    border-width: 0;
+    outline-width: 0;
+}
+#frame{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#imagegallery li{display: inline;}
+td{
+    padding: 0.5em 3em;}
+dl{overflow: hidden;}
+dt{float: left;}
+dd{float: left;}
+label{display: block;}
+fieldset{
+    border: 0;}
